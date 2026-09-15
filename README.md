@@ -1,0 +1,6 @@
+The International Society for Quality of Life Research (ISOQOL) Statistics SIG will host an inaugural data visualization challenge, PRO Viz Challenge, at the 2026 meeting. 
+This team-based visualization competition will engage participants in a collaborative  event to tackle the challenges of analyzing and communicating their analysis results to academic and patient/public audiences. 
+Participants in the PRO Viz Challenge will showcase their skills to tell a visual story driven by real-world PRO data. 
+The PRO Viz Challenge will involve pre-symposium analysis and presentation preparation by participating teams. At the symposium, each team will present their analyses in a judged competition. 
+Oral presentations will be given by each participating team in front of a panel of judges.  Each team will be given 5 minutes to present their data story to the panel of judges through innovative and creative data visualizations (charts, graphics, videos) using any software (PowerPoint, Tableau, etc.). 
+Each team will highlight key findings in the data and the interpretation of these findings. Judges will evaluate each presentation using pre-defined criteria. Following the symposium, judge scores will be compiled and the top 3 teams will be identified for presentation of certificates, with the top team being given a monetary prize. 
