@@ -1,0 +1,45 @@
+**Thank you for accessing the Burn Model System National Database Public Access Dataset**
+
+More information on the dataset can be found at http://burndata.washington.edu/about-database, including the data dictionary and a 
+PowerPoint presentation that guides you through the BMS Data Dictionary and provides more information about using the database. There is 
+also a PDF that provides an overview of the variables that have been collected over the lifespan of the project.
+
+Publications using the BMS National Database can be found here: http://burndata.washington.edu/pubs
+
+For a review of the BMS methods, see this publication: https://www.ncbi.nlm.nih.gov/pubmed/28989076
+
+For the online data dictionary, go to:
+https://burndata.washington.edu/bms-database/data-dictionary/
+
+For questions contact the Burn Model System National Data and Statistical Center at burndata@uw.edu.
+
+**Information about the dataset:**
+--The DOI for the BMS National Database is DOI 10.17605/OSF.IO/SWC2P 
+
+--The dataset has been stripped of all identifiers and PHI. Year of burn injury (brn_year), year of birth (bth_year) and year of follow-up
+data collection (fup_year) are provided instead of dates.
+
+--Age (the variable named "age") is defined as age at injury, and is listed as an integer except in the case of people ages 80 and above. This can potentially be
+an identifier, so for this group of people, age is replaced as the mean age (84.8) of those 80 and older (so that the mean age of the whole sample remains the same)
+ in the variable "age" and for the categorical variable "age80up" is coded as yes=1 (the variable "age80up" is coded as 0 for all other ages).
+
+--The data in the dataset is two years older than the publication date; ie, the dataset goes to (not through) 2023. For newer data, 
+fill out an external request form, located here: https://burndata.washington.edu/bms-database/request-custom-dataset/
+
+--This is a longitudinal dataset. It's in "stacked" format, ie, there is one row per participant (or observation) per timepoint. 
+The time the data was collected is denoted by the variable "time". The coding for this variable is: 0=Discharge; 1=6 months; 
+2=12 months; 3=24 months; 5=5 years; 10=10 years; 15=15 years; 20=20 years.
+
+--There are records for both participants and people who were eligible but declined to participate or were not alive at hospital discharge.
+For the latter two categories, there is burn year, birth year, gender, and consent/alive status (ie, refused, missed). This can be
+determined by the variables "alive_dc" and "consented". The coding for these variables can be found in the data dictionary, but
+1=yes for both (ie, yes consented and yes alive at hospital discharge).
+
+--The dataset contains the most commonly used variables in the BMS database. If you're looking for a variable that is in the data 
+dictionary but not in the public access dataset, contact burndata@uw.edu for access to the variable.
+
+--All measures are scored. The total score variables are listed in the data dictionary. 
+
+--The BMS began collecting the VR-12 in place of the SF-12 in 2015 and the PROMIS Global in place of the VR-12 in 2022. The variables named "globalptscore" and "globalmtscore" contain all the data of the total scores of the SF-12, the VR-12, and the PROMIS Global combined. The SF-12 and VR-12 were cross-walked to the PROMIS global metric using published algorithms.
+
+
